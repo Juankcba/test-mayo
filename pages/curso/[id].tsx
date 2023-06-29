@@ -15,10 +15,11 @@ const CursoDetailPage: FC<props> = ({ curso }) => {
     <Layout title={curso.title}>
       <Container css={{ h: "80vh" }}>
         <Text h1>{curso.title}</Text>
-
-        <Text h5>
-          Dictado por {curso.author?.first_name} {curso.author?.last_name}
-        </Text>
+        {Object.keys(curso.author).length > 0 && (
+          <Text h5>
+            Dictado por {curso.author?.first_name} {curso.author?.last_name}
+          </Text>
+        )}
 
         <Text>{curso.description}</Text>
         <Grid.Container
