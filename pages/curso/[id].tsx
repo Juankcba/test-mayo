@@ -17,7 +17,7 @@ const CursoDetailPage: FC<props> = ({ curso }) => {
         <Text h1>{curso.title}</Text>
 
         <Text h5>
-          Dictado por {curso.author.first_name} {curso.author.last_name}
+          Dictado por {curso.author?.first_name} {curso.author?.last_name}
         </Text>
 
         <Text>{curso.description}</Text>
