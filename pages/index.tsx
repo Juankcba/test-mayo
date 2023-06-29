@@ -1,5 +1,6 @@
 import Layout from "@/Layouts/Layout";
-import { Container, Grid, Text, Row, Image } from "@nextui-org/react";
+import { Container, Grid, Text, Row, Image, Button } from "@nextui-org/react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
                 specialises in accredited and bespoke training courses. We crush
                 the barriers togetting a degree.
               </Text>
+              <Button as={Link} href={"/cursos"} css={{ mt: "24px" }}>
+                Ir a cursos
+              </Button>
             </Row>
           </Grid>
           <Grid xs={12} md={6}>
