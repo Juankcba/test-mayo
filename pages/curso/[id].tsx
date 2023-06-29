@@ -56,14 +56,17 @@ const CursoDetailPage: FC<props> = ({ curso }) => {
 
 export const getStaticPaths: GetStaticPaths = async (ctx) => {
   const { data } = await mayoApi.get("/courses");
-  const coursesIds = data.data.map((dato: any) => `${dato.id}`);
+  const coursesIds = data.data
+    .map((dato: any) => `${dato.id}`)
+    .filter((id: string) => id != "14")
+    .filter((id: string) => id != "16");
   return {
     paths: coursesIds.map((id: string) => ({
       params: {
         id,
       },
     })),
-    fallback: "blocking",
+    fallback: false,
   };
 };
 
