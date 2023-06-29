@@ -1,20 +1,7 @@
 import Layout from "@/Layouts/Layout";
 import { Container, Grid, Text, Row, Image } from "@nextui-org/react";
-import { mayoApi } from "@/apis";
-import { useEffect } from "react";
 
 export default function Home() {
-  const getData = async () => {
-    await mayoApi
-      .get("/courses?order_by=title&page=1&per_page=15")
-      .then((r) => {
-        console.log(r.data);
-      });
-  };
-  useEffect(() => {
-    getData();
-  }, []);
-
   return (
     <Layout>
       <Container>

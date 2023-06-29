@@ -2,8 +2,8 @@ import React, { FC, useState, useEffect, Fragment } from "react";
 import Layout from "@/Layouts/Layout";
 import { Container, Grid, Loading, Text } from "@nextui-org/react";
 import { mayoApi } from "@/apis";
-import { ICourses } from "../interfaces/courses";
 import CursosCard from "@/components/cursos/CursosCard";
+import { ICourses } from "../../interfaces/courses";
 
 interface props {
   courses: string;
