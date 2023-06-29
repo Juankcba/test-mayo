@@ -13,7 +13,7 @@ const CursoDetailPage: FC<props> = ({ curso }) => {
   console.log(curso);
   return (
     <Layout title={curso.title}>
-      <Container css={{ h: "80vh" }}>
+      <Container css={{ minH: "80vh" }}>
         <Text h1>{curso.title}</Text>
         {Object.keys(curso.author).length > 0 && (
           <Text h5>
