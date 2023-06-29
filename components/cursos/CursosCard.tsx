@@ -9,12 +9,7 @@ const CursosCard: FC<props> = ({ curso }) => {
   return (
     <Card>
       <Card.Header>
-        <Text
-          h2
-          color={"white"}
-          size={"$2xl"}
-          css={{ h: "40px", overflow: "hidden" }}
-        >
+        <Text h2 color={"white"} size={"$xl"}>
           {curso.title}
         </Text>
       </Card.Header>

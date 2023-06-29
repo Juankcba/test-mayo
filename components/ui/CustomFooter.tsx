@@ -13,15 +13,9 @@ const CustomFooter = () => {
       <Grid.Container css={{ w: "100%" }}>
         <Grid xs={12}>
           <Navbar css={{ bg: "$gray850" }}>
-            <Navbar.Content>
-              <Text css={{ textAlign: "center" }}>
-                ©{" "}
-                {isEnglish
-                  ? "All rights reserved since 2023"
-                  : "Todos los derechos reservados  2023"}{" "}
-              </Text>
-            </Navbar.Content>
-            <Navbar.Content css={{ pr: "125px" }}>
+            <Navbar.Content
+              css={{ w: "100%", display: "flex", justifyContent: "center" }}
+            >
               <Navbar.Link isActive={router.asPath === "/"} href="/">
                 {isEnglish ? "Home" : "Inicio"}
               </Navbar.Link>

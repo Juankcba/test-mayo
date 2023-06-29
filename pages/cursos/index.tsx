@@ -24,14 +24,18 @@ const CursosPage: FC<props> = ({ courses }) => {
       <Container>
         {cursos.length > 0 ? (
           <Fragment>
-            <Text h1>Nuestros Cursos</Text>
+            <Text h1 css={{ "@smMax": { fontSize: "28px" } }}>
+              Nuestros Cursos
+            </Text>
 
             <Grid.Container gap={1}>
-              {cursos.map((curso: ICourses) => (
-                <Grid xs={12} sm={6} md={4} lg={3} key={curso.id}>
-                  <CursosCard curso={curso} />
-                </Grid>
-              ))}
+              {cursos
+                .filter((curso: ICourses) => curso.id == 20)
+                .map((curso: ICourses) => (
+                  <Grid xs={12} sm={6} md={4} lg={3} key={curso.id}>
+                    <CursosCard curso={curso} />
+                  </Grid>
+                ))}
             </Grid.Container>
           </Fragment>
         ) : (

@@ -16,7 +16,9 @@ export default function Home() {
                 alignItems: "center",
               }}
             >
-              <Text h1>Grow up your skills by online courses with Eduvi</Text>
+              <Text h1 css={{ "@smMax": { fontSize: "28px" } }}>
+                Grow up your skills by online courses with Eduvi
+              </Text>
               <Text>
                 Eduvi is a Global training provider based across the UK that
                 specialises in accredited and bespoke training courses. We crush
