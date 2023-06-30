@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>test-mayo.vercel.app</loc><lastmod>2023-06-29T23:23:48.796Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>test-mayo.vercel.app/cursos</loc><lastmod>2023-06-29T23:23:48.796Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>test-mayo.vercel.app/sobre-nosotros</loc><lastmod>2023-06-29T23:23:48.796Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>test-mayo.vercel.app/curso/15</loc><lastmod>2023-06-29T23:23:48.796Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>test-mayo.vercel.app/curso/17</loc><lastmod>2023-06-29T23:23:48.796Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>test-mayo.vercel.app/curso/18</loc><lastmod>2023-06-29T23:23:48.796Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>test-mayo.vercel.app/curso/19</loc><lastmod>2023-06-29T23:23:48.796Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>test-mayo.vercel.app/curso/20</loc><lastmod>2023-06-29T23:23:48.796Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app/admin</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app/admin/cursos</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app/auth/login</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app/auth/register</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app/cursos</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app/sobre-nosotros</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app/curso/15</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app/curso/17</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app/curso/18</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app/curso/19</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>test-mayo.vercel.app/curso/20</loc><lastmod>2023-06-30T00:14:14.602Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
